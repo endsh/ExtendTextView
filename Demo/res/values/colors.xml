@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_text_color">#ffb1b1b1</color>
+    <color name="bottom_text_color_select">#ff0087d4</color>
+    <color name="edit_style_txt">#ff333333</color>
+    <color name="edit_style_txt_hint">#ff7f7f7f</color>
+    <color name="edit_style_bg">#fff6f6f6</color>
+    <color name="publish_footer_bg">#ffe9eef0</color>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TextStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:textColorHighlight">#ffffffff</item>
+        <item name="android:textColorHint">#ffffffff</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">-1.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="BottomMenu" parent="@style/TextStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/item_background_</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:drawablePadding">-5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="scroll_bar_default">
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar</item>
+    </style>
+</resources>

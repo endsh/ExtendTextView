@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff6f6f6"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/ScrollViewBlogEdit"
+            style="@style/scroll_bar_default"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="12.0dip"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:paddingTop="0.0dip" >
+
+                <com.endsh.widget.ExtendEditText
+                    android:id="@+id/EditTextBody"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="#fff6f6f6"
+                    android:gravity="top"
+                    android:hint="正文"
+                    android:minLines="11"
+                    android:scrollbars="none"
+                    android:text=""
+                    android:textSize="15.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+<LinearLayout android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:background="@color/publish_footer_bg" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="32.0dip"
+            android:layout_centerInParent="true" >
+
+            <Button
+                android:id="@+id/ButtonLocal"
+                android:layout_width="27.0dip"
+                android:layout_height="27.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:background="@drawable/qz_selector_toolbar_picture" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
