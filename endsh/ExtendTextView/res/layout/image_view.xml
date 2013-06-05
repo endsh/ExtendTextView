@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textnote_pic_bg" >
+
+    <ImageView
+        android:id="@+id/file_not_exist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6.0px"
+        android:paddingLeft="5.0px"
+        android:paddingRight="6.0px"
+        android:paddingTop="6.0px"
+        android:src="@drawable/file_not_exist" />
+
+    <ImageView
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="10.0px"
+        android:paddingRight="10.0px"
+        android:src="@drawable/btn_delete_normal" />
+
+</RelativeLayout>
+</LinearLayout>

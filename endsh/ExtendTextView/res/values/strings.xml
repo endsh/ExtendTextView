@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Endsh</string>
+    
+    <string name="selectText">Select text</string>
+    <string name="selectAll">Select all</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="paste">Paste</string>
+    <string name="copyUrl">Copy URL</string>
+    <string name="inputMethod">Input method</string>
+    <string name="addToDictionary">Add to dictionary</string>
+    <string name="editTextMenuTitle">Text actions</string>
+    <string name="ellipsis">"…"</string>
+</resources>
